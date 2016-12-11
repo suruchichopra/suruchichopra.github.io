@@ -1,6 +1,7 @@
 /**
  * Created by SURANSH on 12/8/2016.
  */
+$(function () {
 
 if ( $(window).width() <= 600) {
     $('#momdad').removeClass();
@@ -45,3 +46,4 @@ $(window).on('resize', function(){
         $('#suransh').addClass('pull-right');
     }
 });
+})
